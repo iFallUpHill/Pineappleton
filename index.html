@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="boba.min.css">
+        <link rel="stylesheet" href="main.css">
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <div class="banner fullscreen bg-dark lighten-bg-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col xs-12 nav-row text-white">
+                        <span id="pineappleton">PINEAPPLETON V1</span>
+                        <span id="advancedToggle"> | Go To Basic Mode</span>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 18px;">
+                    <div class="col xs-3 text-center effect-knob basic-knob">
+                        <p><h6 class="text-white no-margin">VOLUME</h6></p>
+                        <input id="volume-knob" type="text" value="100" class="dial" data-width="95%" data-skin="tron" data-cursor=true data-thickness=.3 data-fgColor="#222222">
+                    </div>
+                    <div class="col xs-3 text-center effect-knob basic-knob">
+                        <p><h6 class="text-white no-margin">REVERB</h6></p>
+                        <input id="reverb-knob" type="text" value="0" class="dial" data-width="95%" data-skin="tron" data-cursor=true data-thickness=.3 data-fgColor="#222222">
+                    </div>
+                    <div class="col xs-3 text-center effect-knob basic-knob">
+                        <p><h6 class="text-white no-margin">DELAY</h6></p>
+                        <input id="delay-knob" type="text" value="0" class="dial" data-width="95%" data-skin="tron" data-cursor=true data-thickness=.3 data-fgColor="#222222">
+                    </div>
+                    <div class="col xs-3 text-center effect-knob advanced-knob">
+                        <p><h6 class="text-white no-margin">MODULATE</h6></p>
+                        <input id="modulator-knob" type="text" value="0" class="dial" data-width="95%" data-skin="tron" data-cursor=true data-thickness=.3 data-fgColor="#222222">
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col xs-3 effect-button basic-sounds">
+                        <div class="bg-green" data-sound="cubansax">
+                            <div class="sound-label basic-label text-center">CUBAN SAX</div>                        
+                        </div>
+                    </div>
+                    <div class="col xs-3 effect-button basic-sounds">
+                        <div class="bg-green" data-sound="dropthefunk">
+                            <div class="sound-label basic-label text-center">DROP THE FUNK</div>                            
+                        </div>
+                    </div>
+                    <div class="col xs-3 effect-button basic-sounds">
+                        <div class="bg-green" data-sound="bringit">
+                            <div class="sound-label basic-label text-center">BRING IT</div>                            
+                        </div>
+                    </div>
+                    <div class="col xs-3 effect-button basic-sounds">
+                        <div class="bg-green" data-sound="cubansax">
+                            <div class="sound-label basic-label text-center">GOSPEL</div>                            
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col xs-3 effect-button advanced-sounds">
+                        <div class="bg-green" data-sound="harmonica">
+                            <div class="sound-label text-center">HARMONICA</div>                            
+                        </div>
+                    </div>
+                    <div class="col xs-3 effect-button advanced-sounds">
+                        <div class="bg-green" data-sound="airyvox">
+                            <div class="sound-label text-center">AIRY VOX</div>                            
+                        </div>
+                    </div>
+                    <div class="col xs-3 effect-button advanced-sounds">
+                        <div class="bg-green" data-sound="longuevibes">
+                            <div class="sound-label text-center">LONGUE VIBES</div>                            
+                        </div>
+                    </div>
+                    <div class="col xs-3 effect-button advanced-sounds">
+                        <div class="bg-green" data-sound="aggrobass">
+                            <div class="sound-label text-center">AGGRO BASS</div>                            
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    <script src="knob.js"></script>
+    <script src="effects.js"></script>
+    <script src="scripts.js"></script>
+    </body>
+</html>

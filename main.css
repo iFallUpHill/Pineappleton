@@ -1,0 +1,23 @@
+.container {
+	width: 100% !important;
+}
+
+.nav-row {
+	height: 5vh;
+}
+
+.effect-knob {
+	height: 35vh;
+}
+
+.effect-button {
+	height: 30vh;
+}
+
+.bg-green {
+	height: 100%;
+}
+
+.sound-label {
+	padding-top: 12vh;
+}
